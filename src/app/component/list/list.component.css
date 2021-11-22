@@ -1,0 +1,79 @@
+
+
+.fa-trash-alt{
+    pointer-events: all;
+    color: red;
+}
+
+.fa-edit{
+    pointer-events: all;
+    color: blue;
+}
+
+
+p{
+    font-size: x-large;
+}
+
+td{
+    font-size: medium;
+}
+
+.container{
+    flex:content;
+    align-content: center;
+    margin-left: 25cm;
+}
+
+
+@media only screen and (max-width: 600px){
+
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+
+p{
+    font-size: medium;
+}
+
+td{
+    font-size: small;
+}
+
+.container{
+    margin-left: 1cm;
+    width: 86%;
+}
+
+
+.btn {
+    width: 10%;
+}
+}
+
+@media only screen and (max-width: 400px){
+
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+
+p{
+    font-size: medium;
+}
+
+td{
+    font-size: small;
+}
+
+.container{
+    margin-left: 0.8cm;
+    width: 86%;
+}
+
+
+.btn {
+    width: 15%;
+}
+}
